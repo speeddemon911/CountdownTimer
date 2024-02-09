@@ -10,17 +10,15 @@ body {
     background-position: center;
     min-height: 100vh;
     font-family: "Onest", sans-serif;
-    margin: 0;
     display: flex;
-    justify-content: center;
-   
+    flex-direction: column; 
 }
 
 .countdown-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    text-align: center;
+    justify-content: center;
 }
 
 .large-text {
@@ -34,9 +32,13 @@ h1 {
     font-size: 3rem;
     color: blue;
     margin-top: 8rem;
+    display: flex;
+    justify-content: center;
 }
 
 .verbage {
     font-size: 2rem;
     color: blue;
+    display: flex;
+    justify-content: center;
 }
